@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Model Viewer Demonstration</title>
+        <style>
+            model-viewer {
+                height: 60vh;
+                width: 100%;
+            }
+        </style>
+    </head>
+    <body>
+
+        <h1 class="Main-Header">Razor Revoulution Design Prototype</h1>
+
+
+        <model-viewer
+            auto-rotate
+            camera-controls
+            loading="razor"
+            alt="razor diagram"
+            src="razorfinal2.gltf"
+        >
+        </model-viewer>
+        
+        <!-- Import the component -->
+        <script type="module" src="https://ajax.googleapis.com/ajax/libs/model-viewer/3.0.1/model-viewer.min.js"></script>
+    </body>
+</html>
